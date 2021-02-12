@@ -7,7 +7,6 @@ import {StartComponent} from './start.component';
   styleUrls: ['./start.component.css']
 })
 export class StartCompanyComponent extends StartComponent implements OnInit {
-  greeting = 'Hello world!';
 
   constructor() {
     super();
