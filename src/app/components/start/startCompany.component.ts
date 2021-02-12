@@ -7,6 +7,11 @@ import {StartComponent} from './start.component';
   styleUrls: ['./start.component.css']
 })
 export class StartCompanyComponent extends StartComponent implements OnInit {
+<<<<<<< HEAD
+=======
+  superSecret: string;
+  moreSecret: string;
+>>>>>>> 6edeb75... more secret
 
   constructor() {
     super();
