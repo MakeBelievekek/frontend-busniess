@@ -7,20 +7,12 @@ import {StartComponent} from './start.component';
   styleUrls: ['./start.component.css']
 })
 export class StartCompanyComponent extends StartComponent implements OnInit {
-<<<<<<< HEAD
   superSecret: string;
   moreSecret: string;
 
   constructor() {
     super();
-
     this.greeting = 'Extended Hello World!';
-=======
-  greeting = 'Hello world!';
-
-  constructor() {
-    super();
->>>>>>> 9ddb29f... re added
   }
 
   ngOnInit(): void {
