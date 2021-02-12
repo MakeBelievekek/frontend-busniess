@@ -8,6 +8,7 @@ import {StartComponent} from './start.component';
 })
 export class StartCompanyComponent extends StartComponent implements OnInit {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16,6 +17,8 @@ export class StartCompanyComponent extends StartComponent implements OnInit {
 >>>>>>> 6edeb75... more secret
 
 >>>>>>> 412464e... more secret
+=======
+>>>>>>> 4a43ab1... rebase practice
   constructor() {
     super();
   }
