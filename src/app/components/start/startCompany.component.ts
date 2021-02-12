@@ -9,6 +9,7 @@ import {StartComponent} from './start.component';
 export class StartCompanyComponent extends StartComponent implements OnInit {
   superSecret: string;
   moreSecret: string;
+  secretAfterSecret: string;
 
   constructor() {
     super();
