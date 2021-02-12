@@ -7,18 +7,6 @@ import {StartComponent} from './start.component';
   styleUrls: ['./start.component.css']
 })
 export class StartCompanyComponent extends StartComponent implements OnInit {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-  superSecret: string;
-  moreSecret: string;
->>>>>>> 6edeb75... more secret
-
->>>>>>> 412464e... more secret
-=======
->>>>>>> 4a43ab1... rebase practice
   constructor() {
     super();
   }
