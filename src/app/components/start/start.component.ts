@@ -8,6 +8,7 @@ import {Component, OnInit} from '@angular/core';
 export class StartComponent implements OnInit {
   greeting = 'Hello world!';
   additionalData: string;
+  additionalDataTwo: string;
 
   constructor() {
   }
