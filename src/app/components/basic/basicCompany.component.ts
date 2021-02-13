@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {BasicComponent} from './basic.component';
 
 @Component({
@@ -7,6 +7,7 @@ import {BasicComponent} from './basic.component';
   styleUrls: ['./basic.component.css']
 })
 export class BasicCompanyComponent extends BasicComponent implements OnInit {
+  field: string;
 
   constructor() {
     super();
