@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StartComponent } from './components/start/start.component';
 import { StartCompanyComponent } from './components/start/startCompany.component';
+import { BasicComponent } from './components/basic/basic.component';
+import {BasicCompanyComponent} from './components/basic/basicCompany.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StartComponent,
-    StartCompanyComponent
+    StartCompanyComponent,
+    BasicComponent,
+    BasicCompanyComponent
   ],
   imports: [
     BrowserModule,
