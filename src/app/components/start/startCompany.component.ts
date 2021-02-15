@@ -7,11 +7,10 @@ import {StartComponent} from './start.component';
   styleUrls: ['./start.component.css']
 })
 export class StartCompanyComponent extends StartComponent implements OnInit {
-  field: string;
-  fieldTwo: string;
 
   constructor() {
     super();
+    this.greeting = 'Extended ' + this.greeting;
   }
 
   ngOnInit(): void {
