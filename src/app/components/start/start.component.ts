@@ -7,8 +7,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class StartComponent implements OnInit {
   greeting = 'Hello world!';
-  dummier: string;
-  dummierTWO: string;
+
   constructor() {
   }
 
